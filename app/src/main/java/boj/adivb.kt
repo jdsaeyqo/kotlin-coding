@@ -1,20 +1,17 @@
 package boj
 
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import java.util.*
 
 fun main() {
 
-    val br = BufferedReader(InputStreamReader(System.`in`))
-    val st = StringTokenizer(br.readLine())
 
-    val a= st.nextToken().toInt()
-    val b= st.nextToken().toInt()
+    var arr = intArrayOf(0,1,2,3,4,5)
 
-    val result = a.toDouble() / b.toDouble()
+    val arr1 = arr.map {
+        it+1
+    }.toIntArray().contentToString()
+
+    println(arr1)
 
 
-    println(result)
 
 }
