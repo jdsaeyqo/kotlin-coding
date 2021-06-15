@@ -1,6 +1,6 @@
 package programmers
 
-class Solution1 {
+class Solution2 {
     fun solution(a: IntArray, b: IntArray): Int {
         var answer = 0
 
