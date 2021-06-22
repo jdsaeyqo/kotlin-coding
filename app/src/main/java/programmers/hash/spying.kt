@@ -1,4 +1,4 @@
-package programmers
+package programmers.hash
 
 class SolutionSpy {
     fun solution(clothes: Array<Array<String>>): Int {
