@@ -2,8 +2,7 @@ package kot
 
 class _Array {
 
-    fun solution(){
-
+    fun arrayInit(){
         val strArray1 = arrayOfNulls<String>(5) //null로 초기화
         val strArray2 = Array<String>(5){""}
         val strArray3 = arrayOf("가","나","다")
@@ -44,9 +43,39 @@ class _Array {
 
     }
 
+    fun sortArray(){
+        val intArr = intArrayOf(2,4,1,3,5)
+        println(intArr.contentToString())
+        println(intArr.sortedDescending())
+        println(intArr.reversed())
+
+        val strArr = arrayOf("다","나","가","라")
+        println(strArr.sorted())
+        println(strArr.sortedDescending())
+        println(strArr.reversed())
+
+        val charArr = charArrayOf('c','b','a','d')
+        println(charArr.sorted())
+        println(charArr.sortedDescending())
+        println(charArr.reversed())
+
+    }
+
+    fun doArray(){
+        val intArr = intArrayOf(1,2,3,4,5)
+
+        for (i in intArr.indices){
+            if(intArr[i]==2) intArr[i] = 10
+        }
+
+        println(intArr.contentToString())
+    }
+
+
+
 }
 
 fun main(){
-    val s = _Array()
-    s.solution()
+    println(_Array().sortArray())
+   println(_Array().doArray())
 }
