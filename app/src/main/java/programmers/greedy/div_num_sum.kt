@@ -1,4 +1,4 @@
-package programmers
+package programmers.greedy
 
 class Solution4 {
     fun solution(left: Int, right: Int): Int {
