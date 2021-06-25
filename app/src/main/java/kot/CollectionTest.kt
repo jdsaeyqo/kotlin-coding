@@ -1,4 +1,4 @@
-package programmers
+package kot
 
 import java.util.*
 import kotlin.collections.HashSet
@@ -6,11 +6,6 @@ import kotlin.collections.HashSet
 class Solution_collection_test {
 
     val str = "abcdefg"
-
-    private var arr = arrayOf(1,2,3,4,5)
-    private val arr1 = Array(4) { IntArray(3)}
-    private val visit = BooleanArray(2)
-    private val visit2 = Array(2){BooleanArray(2)}
 
     val list = mutableListOf<Int>()
     val set = hashSetOf<Int>()
@@ -21,14 +16,7 @@ class Solution_collection_test {
 
     fun solution(): Int {
 
-        val ar = arr.map {
-            it+1
-        }
-       val ar2 = ar.filter { it%2 == 0 }.map {
-           it+100
-       }
 
-        println("ar2 : $ar2")
 
 
         val intArray = intArrayOf(3,5,2,7,6)
@@ -36,8 +24,6 @@ class Solution_collection_test {
         println("배열 내림차순 ${intArray.sortedDescending()}")
         println("배열 뒤집기 ${intArray.reversed()} ")
 
-
-        println(ar2)
 
         //스트링
         val st = str.replace("c","1")
@@ -58,6 +44,7 @@ class Solution_collection_test {
 
         println("리스트 오름차순 정렬 : ${list.sorted()}")
         println("리스트 내림차순 정렬 : ${list.sortedDescending()}")
+        println("리스트 뒤집기 : ${list.reversed()}")
 
         list.removeAt(0)
         list.remove(1)
