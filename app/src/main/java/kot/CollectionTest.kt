@@ -14,22 +14,23 @@ class Solution_collection_test {
     val treeMap : TreeMap<String,Int> = TreeMap()
 
 
-    fun solution(): Int {
+    fun list(): Int {
+
+        val letters = ('a'..'z').toMutableList()
+
+       val iter = letters.iterator()
+
+        //리스트 반복문 돌며 제거
+       while(iter.hasNext()){
+            val next = iter.next()
+            if(next == 'c') {
+                iter.remove()
+            }
+        }
+
+        println(letters)
 
 
-
-
-        val intArray = intArrayOf(3,5,2,7,6)
-        println("배열 오름차순 ${intArray.sorted()}")
-        println("배열 내림차순 ${intArray.sortedDescending()}")
-        println("배열 뒤집기 ${intArray.reversed()} ")
-
-
-        //스트링
-        val st = str.replace("c","1")
-        println(st) //ab1defg
-        println(st.startsWith("a")) //true
-        println(st.substring(0,3)) //ab1
 
         //리스트 추가 삭제
         list.add(3)
@@ -50,8 +51,11 @@ class Solution_collection_test {
         list.remove(1)
         println("리스트 : $list")
 
+        var answer = -1
+        return answer
+    }
 
-        //Set
+    fun set(){
         set.add(5)
         set.add(3)
         set.add(7)
@@ -66,12 +70,19 @@ class Solution_collection_test {
 
         //Set 값 꺼내기
         val setIterator = set.iterator()
+
         while (setIterator.hasNext()){
-            println(setIterator.next())
+           val next = setIterator.next()
+            println(next)
+            if(next == 7){
+                setIterator.remove()
+            }
         }
+        println(" Set : $set")
 
+    }
 
-        //Map
+    fun map(){
         map["가"] = 4
         map["나"] = 5
         map["다"] = 3
@@ -91,6 +102,17 @@ class Solution_collection_test {
         println("맵 value 오름차순 정렬 : ${map.toList().sortedBy { it.second }}")
         println("맵 value 내림차순 정렬 : ${map.toList().sortedByDescending { it.second }}")
 
+        val iter = map.iterator()
+
+        while (iter.hasNext()){
+            val next = iter.next()
+            if(next.key == "나" || next.value == 3){
+                iter.remove()
+            }
+        }
+
+        println(map)
+
 
         treeMap["라"] = 5
         treeMap["나"] = 4
@@ -105,14 +127,23 @@ class Solution_collection_test {
             println("트리맵 값 $i")
         }
 
-        var answer = -1
-        return answer
+        val itertree = treeMap.iterator()
+        while (itertree.hasNext()){
+            val next = itertree.next()
+            if(next.value == 4 || next.key == "다"){
+                itertree.remove()
+            }
+        }
+
+        println(treeMap)
     }
 }
 
 fun main(){
 
     val s = Solution_collection_test()
-    println(s.solution())
+//    println(s.list())
+//    println(s.set())
+    println(s.map())
 
 }
