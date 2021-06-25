@@ -1,4 +1,4 @@
-package programmers
+package kot
 
 class isPrime{
 
@@ -46,11 +46,18 @@ class isPrime{
 }
 
 fun main(){
-    val s = isPrime().checkPrime(12)
-    println(s)
+//    val s = isPrime().checkPrime(12)
+//    println(s)
+//
+//    val check = BooleanArray(20)
+//    isPrime().eratos(check)
 
-    val check = BooleanArray(20)
-    isPrime().eratos(check)
+    val list = listOf(1,2,3,4)
+    val arr = arrayOf(1,2,3,4)
+
+
+
+
 
 
 }
