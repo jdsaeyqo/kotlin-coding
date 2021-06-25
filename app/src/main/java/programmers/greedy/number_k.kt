@@ -1,4 +1,4 @@
-package programmers
+package programmers.greedy
 
 class Solution3 {
     fun solution(array: IntArray, commands: Array<IntArray>): IntArray {
