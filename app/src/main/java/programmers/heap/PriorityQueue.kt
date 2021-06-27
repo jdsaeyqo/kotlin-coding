@@ -5,7 +5,6 @@ import java.util.*
 
 class Solution1 {
     fun solution(operations: Array<String>): IntArray {
-
         val pq = LinkedList<Int>()
 
         operations.forEach { operation ->
