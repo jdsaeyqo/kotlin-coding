@@ -7,8 +7,6 @@ import java.util.*
 data class Job(
     val start : Int,
     val duration : Int
-
-
 )
 
 class Solution {
@@ -18,7 +16,7 @@ class Solution {
         var currentTime = 0
 
         val waiting = PriorityQueue<Job>(compareBy { it.start })
-        val size = waiting.size
+        val size = jobs.size
 
         jobs.forEach { job->
             waiting.add(Job(job[0],job[1]))
@@ -28,7 +26,7 @@ class Solution {
 
             val working = PriorityQueue<Job>(compareBy { it.duration })
 
-            if(waiting.isNotEmpty() && waiting.peek().start <= currentTime){
+            while(waiting.isNotEmpty() && waiting.peek().start <= currentTime){
                 working.offer(waiting.poll())
             }
 
@@ -40,6 +38,10 @@ class Solution {
             currentTime+=job.duration
             answer += currentTime-job.start
 
+            for(i in working.indices){
+                waiting.offer(working.poll())
+            }
+
         }
         return answer / size
     }
@@ -49,8 +51,7 @@ class Solution {
 @RequiresApi(Build.VERSION_CODES.N)
 fun main() {
     val s = Solution()
-
-
-
+    val ans = s.solution(arrayOf(intArrayOf(0,3), intArrayOf(1,9), intArrayOf(2,6)))
+    println(ans)
 
 }

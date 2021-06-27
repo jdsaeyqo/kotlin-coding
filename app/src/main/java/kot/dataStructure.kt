@@ -26,6 +26,8 @@ class DataStructure{
 
         queue.offerFirst(1)
         queue.offerLast(10)
+        queue.max()
+        queue.min()
 
         while (queue.isNotEmpty()){
             println(queue.pop())
