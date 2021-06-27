@@ -8,7 +8,6 @@ data class Job(
     val start : Int,
     val duration : Int
 )
-
 class Solution {
     @RequiresApi(Build.VERSION_CODES.N)
     fun solution(jobs: Array<IntArray>): Int {
