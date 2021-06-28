@@ -1,13 +1,16 @@
 package kot
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import java.util.*
 
 class DataStructure{
 
     var stk = Stack<Int>()
     var queue = LinkedList<Int>()
-    val priorityQueue = PriorityQueue<Int>()
 
+    @RequiresApi(Build.VERSION_CODES.N)
+    val priorityQueue = PriorityQueue<Int>{ o1, o2 -> o2 - o1 }
     fun solution(){
 
         stk.push(2)
