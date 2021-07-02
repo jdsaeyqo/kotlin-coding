@@ -1,17 +1,27 @@
 package kot
 
 import java.util.*
-import kotlin.collections.HashSet
+
 
 class Solution_collection_test {
 
-    val str = "abcdefg"
+
 
     val list = mutableListOf<Int>()
     val set = hashSetOf<Int>()
     val map = hashMapOf<String,Int>()
     val treeSet :TreeSet<Int> = TreeSet()
     val treeMap : TreeMap<String,Int> = TreeMap()
+
+    fun string(){
+
+        val str = "ab cd efg"
+        val arr = str.split(" ")
+        println(arr[0])
+        println(arr[1])
+        println(arr[2])
+
+    }
 
 
     fun list(): Int {
@@ -50,6 +60,8 @@ class Solution_collection_test {
         list.removeAt(0)
         list.remove(1)
         println("리스트 : $list")
+
+        val arr = list.toTypedArray() // 리스트를 배열로
 
         var answer = -1
         return answer
@@ -144,6 +156,6 @@ fun main(){
     val s = Solution_collection_test()
 //    println(s.list())
 //    println(s.set())
-    println(s.map())
-
+//    println(s.map())
+        println(s.string())
 }
