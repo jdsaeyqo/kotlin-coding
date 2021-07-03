@@ -1,4 +1,4 @@
-class MathFunction {
+class MenuRenewal {
 
     val list = mutableListOf<String>()
     val hm = hashMapOf<String,Int>()
