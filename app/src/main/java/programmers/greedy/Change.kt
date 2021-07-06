@@ -1,3 +1,5 @@
+package programmers.greedy
+
 import java.util.*
 
 class Change {
