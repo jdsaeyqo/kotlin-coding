@@ -1,4 +1,4 @@
-package programmers
+package programmers.greedy
 
 class MatchUp {
 
