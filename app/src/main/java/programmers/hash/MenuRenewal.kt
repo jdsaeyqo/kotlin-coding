@@ -1,12 +1,14 @@
+package programmers.hash
+
+
 class MenuRenewal {
 
-    val list = mutableListOf<String>()
-    val hm = hashMapOf<String,Int>()
-    val hs = hashSetOf<String>()
-    val ansList = mutableListOf<String>()
+    private val list = mutableListOf<String>()
+    private val hm = hashMapOf<String,Int>()
+    private val hs = hashSetOf<String>()
+    private val ansList = mutableListOf<String>()
 
     fun solution(orders: Array<String>, course: IntArray): Array<String> {
-        var answer: Array<String> = arrayOf<String>()
 
         orders.sortBy{it.length}
 
@@ -37,7 +39,7 @@ class MenuRenewal {
         return ansList.sorted().toTypedArray()
     }
 
-    fun getMenu(cnt : Int ,map : Map<String,Int>){
+    private fun getMenu(cnt : Int, map : Map<String,Int>){
 
         var num = 0
 
@@ -52,18 +54,18 @@ class MenuRenewal {
 
     }
 
-    fun getComb(menu : String, course: IntArray){
+    private fun getComb(menu : String, course: IntArray){
 
         for(i in course.indices){
-            var arr = menu.toCharArray()
-            var visit = BooleanArray(menu.length)
+            val arr = menu.toCharArray()
+            val visit = BooleanArray(menu.length)
             comb(arr,visit,0,menu.length,course[i])
 
         }
 
     }
 
-    fun comb(arr : CharArray, visit : BooleanArray,start : Int,n : Int, r : Int){
+    private fun comb(arr : CharArray, visit : BooleanArray, start : Int, n : Int, r : Int){
 
         if(r == 0){
             var str = ""
@@ -88,7 +90,7 @@ class MenuRenewal {
 
     }
 
-    fun sortString(str : String) : String{
+    private fun sortString(str : String) : String{
 
         val arr =  str.toCharArray().sorted()
 
