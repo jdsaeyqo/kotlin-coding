@@ -1,8 +1,8 @@
 package programmers.hash
 
-class Solution12 {
+class OpenChat {
 
-    val userList = hashMapOf<String,String>()
+    private val userList = hashMapOf<String,String>()
 
     fun solution(record: Array<String>): Array<String> {
 
@@ -33,18 +33,4 @@ class Solution12 {
         return ansList.toTypedArray()
     }
 
-}
-fun main(){
-
-    val s =Solution12().solution(
-        arrayOf(
-            "Enter uid1234 Muzi",
-            "Enter uid4567 Prodo",
-            "Leave uid1234",
-            "Enter uid1234 Prodo",
-            "Change uid4567 Ryan"
-        )
-    )
-
-    println(s)
 }
