@@ -1,6 +1,6 @@
-package programmers.comb_perm
+package kot
 
-class practice{
+class CombPerm{
 
     fun perm(arr : IntArray, output : IntArray, visit : BooleanArray, depth : Int, n : Int, r : Int){
 
@@ -23,7 +23,7 @@ class practice{
 
     }
 
-    fun comb(arr : IntArray, output : IntArray, visit : BooleanArray, start : Int, n : Int, r : Int){
+    fun comb(arr : CharArray, visit : BooleanArray, start : Int, n : Int, r : Int){
         if(r==0){
             for (i in visit.indices){
                 if(visit[i]){
@@ -37,7 +37,7 @@ class practice{
         for(i in start until n){
             if(!visit[i]){
                 visit[i] = true
-                comb(arr,output, visit, i+1, n, r-1)
+                comb(arr,visit, i+1, n, r-1)
                 visit[i] = false
             }
         }
@@ -55,13 +55,13 @@ fun main(){
 
     val s = "abcde"
     val array = s.toCharArray()
+    val output1 = CharArray(arr.size)
 
 
-
-//    val perm = practice().perm(arr,output,visit,0,N,2)
+//    val perm = CombPerm().perm(arr,output,visit,0,N,2)
 //    println(perm)
 
-    val comb = practice().comb(arr,output,visit,0,N,2)
+    val comb = CombPerm().comb(array,visit,0,N,2)
     println(comb)
 
 

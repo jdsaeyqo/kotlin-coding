@@ -4,7 +4,7 @@ class _Array {
 
     fun arrayInit(){
         val strArray1 = arrayOfNulls<String>(5) //null로 초기화
-        val strArray2 = Array<String>(5){""}
+        val strArray2 = Array(5){""}
         val strArray3 = arrayOf("가","나","다")
 
         println(strArray1.contentToString())
@@ -45,7 +45,7 @@ class _Array {
 
     fun sortArray(){
         val intArr = intArrayOf(2,4,1,3,5)
-        println(intArr.contentToString())
+        println(intArr.sorted())
         println(intArr.sortedDescending())
         println(intArr.reversed())
 

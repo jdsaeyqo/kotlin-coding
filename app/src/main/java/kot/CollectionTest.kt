@@ -5,12 +5,9 @@ import java.util.*
 
 class Solution_collection_test {
 
-
-
     val list = mutableListOf<Int>()
     val set = hashSetOf<Int>()
     val map = hashMapOf<String,Int>()
-    val treeSet :TreeSet<Int> = TreeSet()
     val treeMap : TreeMap<String,Int> = TreeMap()
 
     fun string(){
@@ -20,6 +17,12 @@ class Solution_collection_test {
         println(arr[0])
         println(arr[1])
         println(arr[2])
+
+        val arr1 = arr.sortedByDescending { it[1] }
+
+        println(arr1)
+
+        val s = "dfa"
 
     }
 
@@ -39,8 +42,6 @@ class Solution_collection_test {
         }
 
         println(letters)
-
-
 
         //리스트 추가 삭제
         list.add(3)
@@ -156,6 +157,6 @@ fun main(){
     val s = Solution_collection_test()
 //    println(s.list())
 //    println(s.set())
-//    println(s.map())
+//    println(s.boj.dfs_bfs.getMap())
         println(s.string())
 }
