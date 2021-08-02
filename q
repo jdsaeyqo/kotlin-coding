@@ -1,0 +1,547 @@
+[33mcommit 25e859cbfdfb3cac897440fb0bfc26091ab35710[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Aug 2 15:04:41 2021 +0900
+
+    백준
+    퇴사
+
+[33mcommit 8403891e64331eaa6cbd3bd6c99edd2f4c7148d4[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Aug 2 15:04:20 2021 +0900
+
+    백준
+    주사위 굴리기
+
+[33mcommit 02778e9aff10763db2fa90224bc15e2314564ee6[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Aug 2 15:03:53 2021 +0900
+
+    백준
+    주사위 굴리기
+
+[33mcommit 34131b0959ae8a990a9903760853b9f654358031[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Aug 2 11:40:51 2021 +0900
+
+    백준
+    퇴사
+
+[33mcommit 6de3421aa598f0edce1cdf835ca0ac8542aa14e9[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Aug 2 10:49:10 2021 +0900
+
+    백준
+    시험 감독
+
+[33mcommit 4ecdb4387dc8288e08fb3010beac06f10e90b3ad[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Aug 1 20:06:42 2021 +0900
+
+    삭제
+
+[33mcommit e07fcb40bc91f71e9c545484f551b5b31d33e126[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Aug 1 20:06:09 2021 +0900
+
+    백준
+    체스판 다시 칠하기
+
+[33mcommit 394df4e34fb6bacf42e725af86ef003a9cf17b8d[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Aug 1 17:32:08 2021 +0900
+
+    백준
+    두 수의 합
+
+[33mcommit 3a97fc188df41c1a3f5546dc0aa704e4dc980195[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Aug 1 16:51:08 2021 +0900
+
+    백준
+    카드 구매하기
+
+[33mcommit d81b237ab56f4f49ca41ea005bf30df654539187[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sat Jul 31 17:05:55 2021 +0900
+
+    백준
+    요세푸스 문제
+
+[33mcommit c01a519c4896c80ea30cfbae681639cbbf8b1560[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jul 30 19:22:05 2021 +0900
+
+    백준
+    이항계수
+
+[33mcommit 21acf190d1fb8256cde000d081b4d9cdadb080bd[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jul 30 19:08:02 2021 +0900
+
+    프로그래머스
+    숫자 문자열과 영단어
+
+[33mcommit e0b324fb25a3016df09f7c52bb7021ebe25dff44[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jul 30 19:07:33 2021 +0900
+
+    프로그래머스
+    거리두기 확인하기
+
+[33mcommit 721b5817b9684be11e63fcff536f87f805b8ac2c[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Thu Jul 29 18:26:21 2021 +0900
+
+    백준
+    N-Queen
+
+[33mcommit 08ea7b5aeaf4aa510d9c7a2fd9c637cafdba789e[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jul 28 22:20:14 2021 +0900
+
+    백준
+    숨바꼭질
+
+[33mcommit b275c6da07f711a27280fdd10034726f91bd58b3[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jul 28 14:38:05 2021 +0900
+
+    백준
+    촌수 계산
+
+[33mcommit c45755f8e718ef4147e9a5cb2f1cd13e911bc94d[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jul 27 19:34:03 2021 +0900
+
+    이진 탐색
+
+[33mcommit 6f9be303345923f0d9050c40c209ff99f4a89eaa[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jul 27 19:27:08 2021 +0900
+
+    백준
+    뱀
+
+[33mcommit 13960989a0bc92ab8c339569e8f1fc23043dd3b4[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jul 27 19:26:36 2021 +0900
+
+    백준
+    숫자카드
+    이진 탐색 함수 및 구현
+
+[33mcommit 0afb08b7481a95b24666c2858bcad967dc2b4105[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jul 26 20:39:55 2021 +0900
+
+    백준
+    아기상어
+
+[33mcommit db4f0e75f9a122bed53ca2b3b6ac523f569e4abc[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jul 26 20:39:37 2021 +0900
+
+    백준
+    알파벳
+
+[33mcommit 97990a545ca994030aec8d7d105701a86f4d62c3[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jul 26 18:38:00 2021 +0900
+
+    백준
+    뱀
+
+[33mcommit c64a486f88168c9b3bbcebe11ee82bd024dd44a8[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jul 26 14:13:40 2021 +0900
+
+    백준
+    아기 상어
+
+[33mcommit 0cd03f766766e30d569199ba2db8c3fec15c3125[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jul 25 14:12:24 2021 +0900
+
+    백준
+    로또
+
+[33mcommit e2d6903ba69c70add5c88edc1a0ef90556f0051b[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jul 25 14:12:04 2021 +0900
+
+    백준
+    암호 만들기
+
+[33mcommit da22c4dd7a244227f7b539421584902126d99390[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jul 25 10:21:07 2021 +0900
+
+    프로그래머스
+    배달
+
+[33mcommit 59aed9d2ef3ccbdc7dbcb32a1e7eabc50cf40daf[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jul 25 10:19:29 2021 +0900
+
+    프로그래머스
+    오픈 채팅방
+
+[33mcommit 4c56f30921e789c7863dd0d4f088babd5e40a659[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jul 25 10:14:54 2021 +0900
+
+    프로그래머스
+    메뉴 리뉴얼
+
+[33mcommit 0f9020c4a2d1eca5cb7a775b95d06bc0e9678b3a[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jul 19 16:25:58 2021 +0900
+
+    백준
+    적록색약
+
+[33mcommit 9232904f74f297835ab77c66f2a9360ebb2941b9[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jul 6 18:56:04 2021 +0900
+
+    프로그래머스
+    행렬 테두리 회전하기
+
+[33mcommit adb3e936e32eebb0deb754cb5ed228cd61267beb[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jul 6 18:55:43 2021 +0900
+
+    프로그래머스
+    예상 대진표
+
+[33mcommit 200a57d3b7c38eefeeb9124e32032c6f5aee83c8[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jul 6 18:55:26 2021 +0900
+
+    프로그래머스
+    괄호 변환
+
+[33mcommit 2a4718effc284efe9e578a9872a3ae83bb145edc[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jul 6 18:54:50 2021 +0900
+
+    프로그래머스
+    순위 검색
+
+[33mcommit 3ae30dac3dcf87d811cb6cfa190edb339855187d[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jul 5 20:14:48 2021 +0900
+
+    프로그래머스
+    예상 대진표
+
+[33mcommit ee9e12b70513449045a68f17b252ab847d8e3bf9[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sat Jul 3 22:37:30 2021 +0900
+
+    프로그래머스
+    메뉴 리뉴얼
+
+[33mcommit c9ad52d20515ce589452a61627c090e69d10aff0[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sat Jul 3 22:35:24 2021 +0900
+
+    프로그래머스
+    메뉴 리뉴얼
+
+[33mcommit efc456be0a7d668a3bda80aba82f3417a689fa3c[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jul 2 15:54:54 2021 +0900
+
+    프로그래머스
+    행렬 테두리 회전하기
+
+[33mcommit 0814b7d63e77fe02de49e2ff003c6d1f7f8c4bcc[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jul 2 15:54:17 2021 +0900
+
+    프로그래머스
+    괄호 변환
+
+[33mcommit a72651f1f56a0148b9dbd7b0698b6dfb6d0beda0[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jul 2 09:59:24 2021 +0900
+
+    문자열 split
+
+[33mcommit e5482d48c55d260c2c85b25812bbcdc7d4f5d397[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jul 2 09:58:46 2021 +0900
+
+    프로그래머스
+    오픈채팅방
+
+[33mcommit ffbeb0959d66fd70cd5f8b11be056457f4324d1e[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Thu Jul 1 14:56:03 2021 +0900
+
+    프로그래머스
+    다리를 지나는 트럭
+
+[33mcommit d218357c66fb2a4866b66d4743d097e1865ba665[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 30 22:47:18 2021 +0900
+
+    프로그래머스
+    여행경로
+
+[33mcommit cc371516c6cacc89d510eb569194131385d9fd68[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 30 17:21:39 2021 +0900
+
+    프로그래머스
+    단어 변환
+
+[33mcommit cab82812b5e1597c9698ea35bace1b2312808869[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 30 11:28:12 2021 +0900
+
+    프로그래머스
+    순위
+
+[33mcommit 91ae966594ca0b2690c20a15f88a0a5278bfa172[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jun 29 22:42:21 2021 +0900
+
+    백준
+    전자레인지
+
+[33mcommit aaf7ff76fefe3e335ca0c51952964891faba9d51[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jun 28 21:18:57 2021 +0900
+
+    백준
+    가운데를 말해요
+
+[33mcommit 42cc842e544c40c4aa72f9bc108b0fe02b3c565f[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jun 28 21:18:16 2021 +0900
+
+    우선순위 큐 내림차순
+
+[33mcommit 8f69fc38433f2f776537b9d2fcc4ec388131b12e[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jun 28 11:41:40 2021 +0900
+
+    프로그래머스
+    평범함 배낭
+
+[33mcommit 9d5c6296d40f4f05a5ec4a375dfbd766850374dd[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jun 28 11:41:26 2021 +0900
+
+    프로그래머스
+    이중 우선순위 큐
+
+[33mcommit 34e74b2d1422e905c55b5a5e149ad3e286a8d9eb[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 27 17:05:40 2021 +0900
+
+    프로그래머스
+    이중 우선순위 큐
+
+[33mcommit 3ffe204fa38bbe1207f3cbd89da913777fd887bd[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 27 17:05:22 2021 +0900
+
+    프로그래머스
+    디스크 컨트롤러
+
+[33mcommit 1402960a1036fb32f3e979a2e6218180697e9ef3[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 27 17:00:29 2021 +0900
+
+    큐 max(), min()
+
+[33mcommit 82d2281eeeb0402c1533a215194b3898887ba6fb[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 27 14:52:26 2021 +0900
+
+    프로그래머스
+    디스크 컨트롤러
+
+[33mcommit f792e2fd2e927dc473184072464fb1d595a18a92[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:51:54 2021 +0900
+
+    컬렉션 정리
+
+[33mcommit 2a1037bc3d9d1e8739250bef402d97b91120d0c7[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:48:37 2021 +0900
+
+    배열 정리
+
+[33mcommit d35c27b93288f5dfd565a185fa212a7f2656860a[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:02:47 2021 +0900
+
+    프로그래머스
+    K번째 수
+
+[33mcommit 918fc388e45c79348e15a0d08ce6823edbb48d15[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:02:34 2021 +0900
+
+    프로그래머스
+    로또
+
+[33mcommit a75885b654e192d9c50537e0ec0807a0c2ac611b[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:02:19 2021 +0900
+
+    프로그래머스
+    내적
+
+[33mcommit 0c4af61d2b082550ccde4e8eb4406306d16781b5[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:02:01 2021 +0900
+
+    자료구조 사용
+
+[33mcommit a4df5df915852a9fb90a3355173916ef21d85c49[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:01:43 2021 +0900
+
+    프로그래머스
+    나누는 수 합
+
+[33mcommit a6613d5733e53b461f29dfa9307402de14e7fe94[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:01:08 2021 +0900
+
+    프로그래머스
+    기능 개발
+
+[33mcommit bc5f7796e5f2bc155defa077d418c4abea32f7d7[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 15:00:07 2021 +0900
+
+    Collection 연습
+
+[33mcommit 650c51d25b7d86e081e6481582fde06cef6ba94e[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 14:59:29 2021 +0900
+
+    소수 판별
+
+[33mcommit 82f2bc2cf6e042077c7a29028ec02c45c0c8d2ad[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Fri Jun 25 14:58:53 2021 +0900
+
+    배열 정리
+
+[33mcommit 6db83cce076c4df22d7409d4612506910bbb41b5[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 23 21:20:24 2021 +0900
+
+    프로그래머스
+    소수
+
+[33mcommit 65bf0218fd1ef009955d16214e49a8582fc48082[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 23 20:37:40 2021 +0900
+
+    프로그래머스
+    순열 조합
+
+[33mcommit 4ad49147827526fe15566ff546e14412cfe8a3c4[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 23 19:43:31 2021 +0900
+
+    프로그래머스
+    컬렉션, 자료구조
+
+[33mcommit f3151d99948a0139f340a1f8ac6003e36709c4b0[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 23 18:26:16 2021 +0900
+
+    프로그래머스
+    가장 먼 노드
+
+[33mcommit 8390895504f17930d59e205a8f141a72efef5c3f[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 23 18:25:57 2021 +0900
+
+    프로그래머스
+    네트워크
+
+[33mcommit 646defd3767c0a4f73241c0dca0abf8ffdbd838c[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jun 22 17:45:41 2021 +0900
+
+    프로그래머스
+    베스트 앨범
+
+[33mcommit ffa1ee6d47e8ca0ff20da7297f32ecd2f9444677[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jun 22 17:45:21 2021 +0900
+
+    프로그래머스
+    위장
+
+[33mcommit 9a00f230a12a12572ad57a3092b6e9caa63ca95b[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 20 21:47:30 2021 +0900
+
+    프로그래머스
+    위장
+
+[33mcommit 7944c375d24c108ed927afc02ff6f9fa3b5cef21[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Wed Jun 16 09:49:01 2021 +0900
+
+    프로그래머스
+    기능개발
+
+[33mcommit 2067ffd99c349be711c8bef1b35b0d28371b1cee[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jun 15 19:16:50 2021 +0900
+
+    프로그래머스
+    약수의 개수와 합
+
+[33mcommit 8d22d8042ced3fec65654bed91ec1c09dc706471[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Tue Jun 15 19:16:13 2021 +0900
+
+    프로그래머스
+    내적
+
+[33mcommit 6f19db58168c8df817415afd46a644b8e6579eb9[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Mon Jun 14 21:47:00 2021 +0900
+
+    프로그래머스
+    K번째 수
+
+[33mcommit c8d299aa6ac34e645247f10f4ad4f16ddea1de17[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 13 22:14:31 2021 +0900
+
+    프로그래머스
+    내적
+
+[33mcommit f5fcc6349ed50c7fc4cbdc11178b6a5e085df2e5[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 13 21:19:52 2021 +0900
+
+    프로그래머스
+    로또 최고순위, 최저순위
+
+[33mcommit 3c20b8ddb1d78732242371c480ffefe74d533651[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 13 21:19:27 2021 +0900
+
+    코드 수정
+
+[33mcommit d71f6ab922513fd650c8b3c6db7cd9d0f0da94fd[m
+Author: Sang <jdsaeyqi@naver.com>
+Date:   Sun Jun 13 20:33:29 2021 +0900
+
+    first commit
