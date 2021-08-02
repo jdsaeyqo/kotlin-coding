@@ -5,6 +5,7 @@ import java.io.InputStreamReader
 import java.util.*
 
 class BOJ14501 {
+
     val br = BufferedReader(InputStreamReader(System.`in`))
     lateinit var st : StringTokenizer
 
