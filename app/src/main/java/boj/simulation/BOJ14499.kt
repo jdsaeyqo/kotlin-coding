@@ -29,7 +29,6 @@ class BOJ14499 {
 
         init()
 
-
         movingArr.forEach {
             if (rollDice(it)) {
                 println(top)
