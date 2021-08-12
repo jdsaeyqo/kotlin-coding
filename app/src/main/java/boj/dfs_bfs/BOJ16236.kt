@@ -4,7 +4,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-class LittleShark {
+class BOJ16236 {
     val br = BufferedReader(InputStreamReader(System.`in`))
     lateinit var st : StringTokenizer
 
@@ -96,28 +96,11 @@ class LittleShark {
 
     fun eat(){
 
-        feedList.sortWith(Comparator{o1: Fish, o2: Fish ->
-            return@Comparator if (o1.time == o2.time){
-                if(o1.x == o2.x){
-                    if(o1.y > o2.y){
-                        1
-                    }else{
-                        -1
-                    }
-                }else{
-                    if(o1.x > o2.x){
-                        1
-                    }else{
-                        -1
-                    }
-                }
-
-            }else if (o1.time > o2.time){
-                1
-            }else{
-                -1
-            }
-        })
+       feedList.sortWith(
+           compareBy(Fish::time)
+               .thenBy(Fish::x)
+               .thenBy(Fish::y)
+       )
 
         val now = feedList[0]
 
