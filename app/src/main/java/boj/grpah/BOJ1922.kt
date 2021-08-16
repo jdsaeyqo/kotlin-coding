@@ -7,40 +7,84 @@ import java.util.*
 class BOJ1922 {
 
     val br = BufferedReader(InputStreamReader(System.`in`))
-    lateinit var st : StringTokenizer
+    lateinit var st: StringTokenizer
+
     var n = 0
     var m = 0
-    lateinit var map : Array<IntArray>
+    val edgeList = arrayListOf<Edge>()
+    lateinit var parent : IntArray
 
-    fun main(){
+    fun main() {
 
         init()
+        parent = IntArray(n+1)
+        for(i in 1..n){
+            parent[i] = i
+        }
 
-        for(k in 1..n){
-            for(i in 1..n){
-                for(j in 1..n){
-                    if(map[i][j] < map[i][k] + map[k][j]){
-                        map[i][j] = map[i][k] + map[k][j]
-                    }
-                }
+        edgeList.sort()
+
+        var ans = 0
+        for(i in edgeList.indices){
+            val edge = edgeList[i]
+
+            if(find(edge.start) != find(edge.end)){
+                ans += edge.weight
+                union(edge.start,edge.end)
             }
+        }
+
+        println(ans)
+
+    }
+    private fun union(x : Int, y : Int){
+        val nx = find(x)
+        val ny = find(y)
+
+        if(nx != ny){
+            parent[ny] = nx
         }
 
     }
 
-    private fun init(){
+    private fun find(x : Int) : Int {
+        if(x == parent[x]){
+            return x
+        }
+        parent[x] = find(parent[x])
+        return parent[x]
+    }
+
+    private fun init() {
 
         n = br.readLine().toInt()
         m = br.readLine().toInt()
-        map = Array(n+1){IntArray(4)}
-        for(i in 1..n){
+
+
+        for (i in 0 until m) {
             st = StringTokenizer(br.readLine())
-            for(j in 1..3){
-                map[i][j] = st.nextToken().toInt()
-            }
+            val start = st.nextToken().toInt()
+            val end =  st.nextToken().toInt()
+            val weight = st.nextToken().toInt()
+
+            edgeList.add(Edge(start,end, weight))
 
         }
 
     }
 
+    data class Edge(var start: Int = 0, var end: Int = 0, var weight: Int = 0) : Comparable<Edge> {
+
+        override fun compareTo(other: Edge): Int {
+            return weight - other.weight
+        }
+
+    }
+
+
+}
+
+fun main(){
+    val s = BOJ1922()
+    s.main()
 }
