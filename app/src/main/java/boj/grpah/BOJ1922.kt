@@ -22,7 +22,7 @@ class BOJ1922 {
             parent[i] = i
         }
 
-        edgeList.sort()
+        edgeList.sortWith(compareBy(Edge::weight))
 
         var ans = 0
         for(i in edgeList.indices){
@@ -44,7 +44,6 @@ class BOJ1922 {
         if(nx != ny){
             parent[ny] = nx
         }
-
     }
 
     private fun find(x : Int) : Int {
@@ -73,13 +72,10 @@ class BOJ1922 {
 
     }
 
-    data class Edge(var start: Int = 0, var end: Int = 0, var weight: Int = 0) : Comparable<Edge> {
+    data class Edge(var start: Int = 0, var end: Int = 0, var weight: Int = 0)
 
-        override fun compareTo(other: Edge): Int {
-            return weight - other.weight
-        }
 
-    }
+
 
 
 }
