@@ -9,7 +9,7 @@ class BOJ1789 {
     val br = BufferedReader(InputStreamReader(System.`in`))
     fun main(){
 
-        val num = kot.br.readLine().toLong()
+        val num = br.readLine().toLong()
         var sum : Long = 0
         var add = 1
         while(true){
