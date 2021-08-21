@@ -7,7 +7,7 @@ class BOJ2018 {
     val br = BufferedReader(InputStreamReader(System.`in`))
     fun main() {
 
-        val num = kot.br.readLine().toInt()
+        val num = br.readLine().toInt()
 
         if (num == 1) {
             println(1)
