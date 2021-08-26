@@ -120,6 +120,7 @@ class Solution_collection_test {
         while (iter.hasNext()){
             val next = iter.next()
             if(next.key == "나" || next.value == 3){
+
                 iter.remove()
             }
         }
