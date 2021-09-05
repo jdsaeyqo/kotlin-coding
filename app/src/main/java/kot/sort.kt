@@ -12,8 +12,20 @@ fun main(){
     list.add(Node(3,6,2))
 
     list.sortWith(
+        //z순으로 먼저 정렬 후
         compareBy(Node::z)
+            //z같으면 x 정렬
             .thenBy(Node::x)
+            //x까지 같으면 y정렬
+            .thenBy(Node::y)
+    )
+
+    list.sortWith(
+        //z순으로 역순 정렬 후
+        compareByDescending(Node::z)
+            //z같으면 x 역순 정렬
+            .thenByDescending(Node::x)
+            //x같으면 y 순 정렬
             .thenBy(Node::y)
     )
 
