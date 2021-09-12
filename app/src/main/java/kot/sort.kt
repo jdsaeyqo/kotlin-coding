@@ -29,7 +29,17 @@ fun main(){
             .thenBy(Node::y)
     )
 
-
     println(list)
+
+    val list1 = arrayListOf<Pair<Int,Int>>()
+
+    list1.add(Pair(1,2))
+    list1.add(Pair(0,3))
+
+    list1.sortBy{it.first}
+    println(list1)
+
+
+
 
 }
