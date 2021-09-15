@@ -7,10 +7,10 @@ class Solution_collection_test {
 
     val list = mutableListOf<Int>()
     val set = hashSetOf<Int>()
-    val map = hashMapOf<String,Int>()
-    val treeMap : TreeMap<String,Int> = TreeMap()
+    val map = hashMapOf<String, Int>()
+    val treeMap: TreeMap<String, Int> = TreeMap()
 
-    fun string(){
+    fun string() {
 
         val str = "ab cd efg"
         val arr = str.split(" ")
@@ -26,17 +26,16 @@ class Solution_collection_test {
 
     }
 
-
     fun list(): Int {
 
         val letters = ('a'..'z').toMutableList()
 
-       val iter = letters.iterator()
+        val iter = letters.iterator()
 
         //리스트 반복문 돌며 제거
-       while(iter.hasNext()){
+        while (iter.hasNext()) {
             val next = iter.next()
-            if(next == 'c') {
+            if (next == 'c') {
                 iter.remove()
             }
         }
@@ -48,7 +47,7 @@ class Solution_collection_test {
         list.add(2)
         list.add(4)
         list.add(8)
-        list.add(1,1) //리스트에 추가
+        list.add(1, 1) //리스트에 추가
         list[1] = 5 //리스트 값 변경
         println("리스트 : $list")
 
@@ -68,7 +67,7 @@ class Solution_collection_test {
         return answer
     }
 
-    fun set(){
+    fun set() {
         set.add(5)
         set.add(3)
         set.add(7)
@@ -84,10 +83,10 @@ class Solution_collection_test {
         //Set 값 꺼내기
         val setIterator = set.iterator()
 
-        while (setIterator.hasNext()){
-           val next = setIterator.next()
+        while (setIterator.hasNext()) {
+            val next = setIterator.next()
             println(next)
-            if(next == 7){
+            if (next == 7) {
                 setIterator.remove()
             }
         }
@@ -95,16 +94,16 @@ class Solution_collection_test {
 
     }
 
-    fun map(){
+    fun map() {
         map["가"] = 4
         map["나"] = 5
         map["다"] = 3
 
-        for(i in map.keys){
+        for (i in map.keys) {
             println("키 : $i") //넣은 순서 반영 x
         }
 
-        for(i in map.values){
+        for (i in map.values) {
             println("값 : $i")
         }
 
@@ -117,9 +116,9 @@ class Solution_collection_test {
 
         val iter = map.iterator()
 
-        while (iter.hasNext()){
+        while (iter.hasNext()) {
             val next = iter.next()
-            if(next.key == "나" || next.value == 3){
+            if (next.key == "나" || next.value == 3) {
 
                 iter.remove()
             }
@@ -133,18 +132,18 @@ class Solution_collection_test {
         treeMap["다"] = 3
 
 
-        for(i in treeMap.keys){
+        for (i in treeMap.keys) {
             println("트리맵 키 $i")  // 키 값 자동 오름차순
         }
 
-        for(i in treeMap.values){
+        for (i in treeMap.values) {
             println("트리맵 값 $i")
         }
 
         val itertree = treeMap.iterator()
-        while (itertree.hasNext()){
+        while (itertree.hasNext()) {
             val next = itertree.next()
-            if(next.value == 4 || next.key == "다"){
+            if (next.value == 4 || next.key == "다") {
                 itertree.remove()
             }
         }
@@ -153,11 +152,11 @@ class Solution_collection_test {
     }
 }
 
-fun main(){
+fun main() {
 
     val s = Solution_collection_test()
 //    println(s.list())
 //    println(s.set())
 //    println(s.boj.dfs_bfs.getMap())
-        println(s.string())
+    println(s.string())
 }
