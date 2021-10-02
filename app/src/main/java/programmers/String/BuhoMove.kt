@@ -13,7 +13,7 @@ class BuhoMove {
 
         buho = s
 
-        for (i in 0 until buho.length) {
+        for (i in buho.indices) {
 
             if (check()) {
                 ans++
@@ -29,7 +29,7 @@ class BuhoMove {
 
         val stk = Stack<Char>()
 
-        for (i in 0 until buho.length) {
+        for (i in buho.indices) {
 
             if (buho[i] == '[' || buho[i] == '(' || buho[i] == '{') {
                 stk.push(buho[i])
