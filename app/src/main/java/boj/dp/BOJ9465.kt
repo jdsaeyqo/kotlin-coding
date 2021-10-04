@@ -1,4 +1,4 @@
-package programmers.dp
+package boj.dp
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
