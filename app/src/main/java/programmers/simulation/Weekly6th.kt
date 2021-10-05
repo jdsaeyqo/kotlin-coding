@@ -1,7 +1,5 @@
 package programmers.simulation
 
-import kot.Boxer
-
 class Weekly6th {
     fun solution(weights: IntArray, head2head: Array<String>): IntArray {
 
