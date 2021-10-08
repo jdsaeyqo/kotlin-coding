@@ -3,7 +3,7 @@ package boj.perm_comb
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
-import kotlin.collections.ArrayList
+
 
 class BOJ14889 {
     val br = BufferedReader(InputStreamReader(System.`in`))
