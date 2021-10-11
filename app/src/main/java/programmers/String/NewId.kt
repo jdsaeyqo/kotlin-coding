@@ -32,7 +32,6 @@ class NewId {
 
         }
         //4단계
-
         while (ansList.isNotEmpty() && ansList[0] == '.') {
             ansList.removeAt(0)
         }
@@ -45,7 +44,6 @@ class NewId {
         if (ansList.isEmpty()) {
             ansList.add('a')
         }
-
 
         //6단계
         if (ansList.size >= 16) {
