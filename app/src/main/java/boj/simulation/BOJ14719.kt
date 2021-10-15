@@ -47,7 +47,7 @@ class BOJ14719 {
             }
         }
 
-        height = map[W-1]
+        height = map[W - 1]
         for (i in W - 1 downTo rightIdx) {
             if (map[i] > height) {
                 height = map[i]
@@ -56,9 +56,9 @@ class BOJ14719 {
             }
         }
 
-        if(leftIdx != rightIdx){
-            for(i in leftIdx..rightIdx){
-                sum+=height - map[i]
+        if (leftIdx != rightIdx) {
+            for (i in leftIdx..rightIdx) {
+                sum += height - map[i]
             }
         }
         println(sum)
