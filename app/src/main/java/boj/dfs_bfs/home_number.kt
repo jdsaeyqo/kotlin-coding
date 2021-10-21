@@ -4,7 +4,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 
 object HomeNumber{
-
+    //nhn 모의 테스트와 동일 문제
     var N = 0
     var ans = 0
     var cnt = 0
